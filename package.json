@@ -1,9 +1,8 @@
 {
-  "name": "@mardin101/ngx-laravel-echo",
+  "name": "@mardin101/local-echo",
   "version": "1.0.0",
   "description": "This package is a simple service to allow easy integration of Laravel Echo into angular. The service tries to follow the general functionality of Laravel Echo as closely as possible. The most important difference is the use of Observable streams instead of callbacks for events/notifications, this simplifies integration into Angular a lot and (more importantly) makes sure only one listener per subscribed event/notification has to be created.",
-  "main": "bundles/ngx-laravel-echo.umd.js",
-  "module": "ngx-laravel-echo.es5.js",
+  "main": "ngx-laravel-echo.es5.js",
   "directories": {
     "doc": "docs"
   },
@@ -11,13 +10,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "peerDependencies": {
-    "@angular/common": ">=6.0.0",
-    "@angular/core": ">=6.0.0",
-    "laravel-echo": "^1.5.1",
-    "pusher-js": "^4.3.1",
-    "rxjs": "^6.0.0",
-    "socket.io-client": "^2.2.0"
-  }
+  "license": "ISC"
 }
