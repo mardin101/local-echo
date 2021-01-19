@@ -1,0 +1,69 @@
+{
+  "_from": "ngx-laravel-echo@^1.0.26",
+  "_id": "ngx-laravel-echo@1.0.26",
+  "_inBundle": false,
+  "_integrity": "sha512-JOqojE9VL1ycEDUP5L+i2rlrYHfO6y22PddEUxZpQYX1/p2lsgIw7BCyJF73IYrPEI8NSPcxRsMq54p1PlLwDw==",
+  "_location": "/ngx-laravel-echo",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "ngx-laravel-echo@^1.0.26",
+    "name": "ngx-laravel-echo",
+    "escapedName": "ngx-laravel-echo",
+    "rawSpec": "^1.0.26",
+    "saveSpec": null,
+    "fetchSpec": "^1.0.26"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ngx-laravel-echo/-/ngx-laravel-echo-1.0.26.tgz",
+  "_shasum": "c6fc1c67de30cc47122d4904fdb188025654d3c2",
+  "_spec": "ngx-laravel-echo@^1.0.26",
+  "_where": "C:\\Users\\marti\\WebstormProjects\\echo-library\\dist",
+  "author": {
+    "name": "Mark van Beek",
+    "email": "mark@appelit.com",
+    "url": "https://appelit.com"
+  },
+  "bugs": {
+    "url": "https://github.com/chancezeus/angular-laravel-echo/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "A Angular service for Laravel Echo",
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "es2015": "ngx-laravel-echo.js",
+  "homepage": "https://github.com/chancezeus/angular-laravel-echo",
+  "keywords": [
+    "angular",
+    "laravel",
+    "echo",
+    "broadcasting",
+    "pusher",
+    "socket.io"
+  ],
+  "license": "MIT",
+  "main": "bundles/ngx-laravel-echo.umd.js",
+  "module": "ngx-laravel-echo.es5.js",
+  "name": "ngx-laravel-echo",
+  "peerDependencies": {
+    "@angular/common": ">=6.0.0",
+    "@angular/core": ">=6.0.0",
+    "laravel-echo": "^1.5.1",
+    "pusher-js": "^4.3.1",
+    "rxjs": "^6.0.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chancezeus/angular-laravel-echo.git"
+  },
+  "typings": "./ngx-laravel-echo.d.ts",
+  "version": "1.0.26"
+}
