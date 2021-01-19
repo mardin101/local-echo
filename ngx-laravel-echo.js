@@ -4,7 +4,6 @@ import * as io$1 from 'socket.io-client';
 import { CommonModule } from '@angular/common';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { Inject, Injectable, InjectionToken, NgZone, NgModule } from '@angular/core';
-import Pusher from "pusher-js";
 
 var classCallCheck = function (instance, Constructor) {
   if (!(instance instanceof Constructor)) {
